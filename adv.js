@@ -8,7 +8,7 @@ const cards = document.querySelectorAll(".pic img, .other img");
 let otherTemps = null;
 button.addEventListener("click", () => {
     const city = input.value.trim();
-    if (city !== "") {
+if (city !== "") {
         otherTemps = null; 
         getweather(city);
         input.value = ""; 
