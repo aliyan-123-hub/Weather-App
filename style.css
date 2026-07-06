@@ -1,0 +1,317 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background: linear-gradient(to top, #4b79a1, #283e51);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    width: 100%;
+    height: 600px;
+
+}
+.full-body{
+    height:80vh;
+    width:130vh;
+    background: linear-gradient(to top, #d7d2cc, #304352);
+    border: 2px solid black;
+    border-radius: 13px;
+}
+.in-put{
+    align-items: center;
+border: 1px solid rgba(255, 255, 255, 0.3);
+    margin-left:40px;
+    border-radius: 20px;
+    width: 350px;
+
+}
+.combine{
+justify-content:space-between;
+    display: flex;
+    height: 70vh;
+    margin-top: 20px;
+    width:100%;
+}
+.in-put input{
+padding: 15px;
+margin-top: 30px;
+align-items: center;
+margin-left: 30px;
+border-radius:5px ;
+    text-align: center;
+    border: none;
+}
+.out{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 25px;
+    margin-right: 40px;
+    border-radius:20px;
+   width: 350px; 
+}
+button{
+    background-color: red;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+}
+.out h1{
+width: 40vh;
+align-items: center;
+margin-left: 25px;
+border-radius:5px ;
+    text-align: center;
+}
+.in-put h2{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 30px;
+}
+.in-put h1{
+display: flex;
+padding: 10px;
+align-items: center;
+justify-content: center;
+}
+.in-put p{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 30px;
+}
+.pic{
+    display: flex;
+width: 90px;
+height: 90px;
+margin-top: 20px;
+}
+.other{
+
+    display: flex;
+    width: 90px;
+    height:90px;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+#one{
+    border-radius: 12px;
+}
+#two{
+ margin-left: 20px;
+    border-radius: 12px;
+}
+#three{
+ margin-left: 20px;
+    border-radius: 12px;
+}
+#four{
+    margin-left: 40px;
+    border-radius: 12px;
+}
+#five{
+  margin-left: 40px;
+    border-radius: 12px;   
+}
+.heading{
+    display: flex;
+    font-size: 7px;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.next{
+    display: flex;
+font-size: 7px;
+}
+#fifth{
+    margin-right: 40px;
+}
+.temp1{
+display: flex;
+    text-align: center;    
+    font-size: 30px;
+}
+#on{
+    margin-left:30px ;
+}
+#off{
+    margin-left: 40px;
+}
+#bb{
+margin-left:40px ;
+}
+.temp2{
+display: flex;
+    text-align: center;    
+    font-size: 30px;
+}
+#on1{
+    margin-left: 50px;
+}
+#off1{
+    margin-left: 70px;
+}
+@media(max-width:800px){
+    .full-body{
+        
+        width: 550px;
+        height: 800px;
+        margin-top: 130px;
+    }
+    .combine{
+        flex-direction: column;
+    margin-left: 50px;
+    }
+    .in-put{
+        margin-top: 40px;
+    }
+    .out{
+        margin-top: 30px;
+        margin-left: 40px;
+        
+    }
+}
+@media(max-width:520px){
+.full-body{
+    width: 350px;
+    height: 700px;
+    margin-top: 150px;
+}
+.combine{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0; 
+}
+.in-put{
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+#btn{
+    margin-top: 15px;
+    margin-left: 0;
+}
+#one{
+    margin-left: 40px;
+}
+#on{
+    margin-left: 40px;
+}
+#e{
+    margin-bottom: 20px;
+}
+.out{
+    width: 100%;
+    height: auto;
+    margin: 20px 0 0 0;
+}
+#detail{
+    font-size: 20px;
+    text-align: left; 
+    margin-left: 0;
+}
+.pic{
+    display: flex;
+    justify-content: flex-start;
+}
+.pic img{
+    width: 60px;
+    height: 80px;
+    margin-left: 0;
+    margin-right: 10px;
+}
+.heading{
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    gap: 10px;
+}
+#first, #second, #third{
+    font-size: 16px;
+}
+.temp1{
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.other{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.other{
+    width: 60px;
+    height: 80px;
+    margin-left: 20px;
+}
+.next{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.temp2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 23px;
+    gap: 20px;
+    font-size: 20px;
+}
+}    
+@media(max-width:380px){
+    .full-body{
+        width: 270px;
+        height: 700px;
+    }
+    .in-put{
+        margin-top: 14px;
+        width:250px ;
+        margin-left: 8px;
+    }
+    #btn{
+        margin-left: 80px;
+    }
+.pic{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0;
+    gap: 6px;
+    padding: 0;
+    margin-top: 20px;
+}
+.pic img{
+    width: 50px;
+    height: 70px;
+    margin: 0;
+}
+.other{
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    margin-left: 0;
+}
+.other img{
+    width: 50px;
+    height: 70px;
+    margin: 0;
+}
+.out{
+    padding-left:0 ;
+}
+#detail{
+    text-align: center;
+}
+#first{
+    margin-left: 50px;
+}
+.other{
+    margin-left: 30px;
+}
+}
