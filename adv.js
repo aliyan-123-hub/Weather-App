@@ -1,39 +1,3 @@
-// const api="67fe2398154d6bacbd357369734b817d";
-
-// const input=document.querySelector(".in-put input");
-// const button=document.querySelector("#btn");
-// const cityname=document.querySelector("#o");
-// const temp=document.querySelector("#n");
-// const condition=document.querySelector("#e");
-// btn.addEventListener("click",()=>{
-// const city=input.value.trim();
-// if(city!==""){
-//     getweather(city);
-// }
-// })
-// input.addEventListener("keypress",(e)=>{
-//     if(e.key==="Enter"){
-//         btn.click();
-//     }
-// })
-// async function getweather(city){
-// try{
-//     const url=`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
-//     const response=await fetch(url);
-//     const data=await response.json();
-//     if(data.cod==="404"){
-//         alert("city not found");
-//         return;
-//     }
-//     cityname.innerText=data.name;
-//     temp.innerText=Math.round(data.main.temp)+"°C";
-//     condition.innerText=data.weather[0].main;
-// }
-// catch(error){
-//     console.log("error",error);
-// }
-// }
-
 const api = "67fe2398154d6bacbd357369734b817d";
 const input = document.querySelector(".in-put input");
 const button = document.getElementById("btn");
